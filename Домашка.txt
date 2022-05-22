@@ -29,4 +29,4 @@ git push --set-upstream origin third-branch. Назад в master- git checkout 
 Далее в github third-branch>  Compare & pull request > create pull request > Есть конфликт- Resolve conflicts- исправить в github index.html & styles.css > Mark as resolved > Commit merge. За тем Merge pull request> Confirm merge.
 >
 Git pull чтобы обновить локальный терминал.
-https://github.com/elzarsadybekov/FE3
+https://github.com/elzarsadybekov/02-07--Git-merge
