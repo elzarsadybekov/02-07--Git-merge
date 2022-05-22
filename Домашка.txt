@@ -1,0 +1,32 @@
+git init в терминале
+>
+Присвоить имя (repository name), cоздать new repositiry в github.
+>
+git add . Добавить существующие файлы.
+>
+git commit -m "First commit"
+>
+git remote add origin https://github.com/elzarsadybekov/02-07-Git-merge-.git
+>
+git push --set-upstream origin master
+>
+git branch second-branch
+>
+git checkout second-branch
+>
+Добавим в index.html див с классом "second" и текстом Homework. Задаем этому классу свойство "color: red;". git add .> git commit -m "added tags"
+git push --set-upstream origin second-branch. Назад в master- git checkout master.
+>
+git branch third-branch
+>
+git checkout third-branch
+>
+Добавим в index.html див с классом "third" и текстом Lesson. Задаем этому классу свойство "color: blue;". git add . > git commit -m "added tags for third-branch"
+git push --set-upstream origin third-branch. Назад в master- git checkout master.
+>
+За тем  в github second-branch> Compare & pull request > create pull request, если нет конфликта Merge pull request> Confirm merge.
+>
+Далее в github third-branch>  Compare & pull request > create pull request > Есть конфликт- Resolve conflicts- исправить в github index.html & styles.css > Mark as resolved > Commit merge. За тем Merge pull request> Confirm merge.
+>
+Git pull чтобы обновить локальный терминал.
+https://github.com/elzarsadybekov/FE3
